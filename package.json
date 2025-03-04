@@ -10,10 +10,18 @@
     "seed": "ts-node prisma/seed.ts"
   },
   "dependencies": {
+    "@heroui/card": "^2.2.14",
+    "@heroui/react": "^2.7.4",
+    "@heroui/system": "^2.4.11",
+    "@heroui/theme": "^2.4.11",
     "@prisma/client": "^6.4.1",
+    "autoprefixer": "^10.4.20",
+    "framer-motion": "^12.4.10",
     "next": "15.2.0",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
