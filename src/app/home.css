@@ -1,8 +1,9 @@
-  header {
+  .headerHome {
     /* background: url("./images/OBJECTS.png") no-repeat center; */
     color: white;
     width: 100%;
     position: relative;
+    background: #249781;
     height: 300px;
   }
   
@@ -12,7 +13,6 @@
     width: 100%;
     position: absolute;
     top: 50px;
-    background: red;
   }
 
   .welcome > div {
@@ -21,9 +21,21 @@
     justify-content: center;
   }
 
+  .welcome > div > p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  .welcome > div > h1 {
+    font-size: 30px;
+  }
+
   .notif {
     background: #4CBFA9;
     height: 70px;
     width: 70px;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }

@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    height: 4rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: #9ca3af; 
+    transition: color 0.3s ease; 
+  }
+  
+  .icon:hover {
+    color: #10b981; 
+  }
+  
+  .icon.home {
+    color: #10b981; 
+  }

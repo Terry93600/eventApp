@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./index.css"
 
 const images = [
   "/images/Card_1.jpg",
@@ -20,24 +21,15 @@ function VariableWidth() {
     infinite: true,
     centerMode: true,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     variableWidth: true
   };
   return (
     <div className="slider-container">
       <Slider {...settings} className="test">
       {images.map((src, index) => (
-          <article key={index} className=" cardCarousel relative" style={{ width: 380, }}>
-            <a href="">music</a>
-            <a href="">heart</a>
-            <figure className="relative ">
-              <Image
-                src={src}
-                alt={`Slide ${index + 1}`}
-                fill
-                className=" rounded-lg"
-              />
-            </figure>
+          <article key={index} className=" cardCarousel relative buttonCarou" style={{ width: 150, }}>
+            <a href={src}>heart</a>
           </article>
         ))}
       </Slider>

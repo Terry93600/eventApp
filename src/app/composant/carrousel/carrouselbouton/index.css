@@ -1,0 +1,12 @@
+.buttonCarou {
+    height: 100px;
+}
+
+.buttonCarou > a:first-child {
+    height: 50px;
+    background: white;
+    left: 25%;
+    top: 22%;
+    width: 130px;
+    border-radius: 10px;
+}
